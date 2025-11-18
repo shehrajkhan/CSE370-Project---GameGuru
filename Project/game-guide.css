@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    color: #ff5733;
+  }
+  
+  .login-btn {
+    background-color: #ff5733;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #040000;
+  }
+
+  .login-btn:hover {
+    background-color: #050100;
+    color:#000000;
+
+  }
+
+  
+  /* Guide Section */
+  .guide-section {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .guide-container h1 {
+    font-size: 2rem;
+    color: #ff5733;
+    margin-bottom: 15px;
+  }
+  
+  .guide-container p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  .guide-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .guide-container ul li {
+    font-size: 1.1rem;
+    background-color: #2e2e2e;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+  }
+  
+  .guide-container ul li strong {
+    color: #ff5733;
+  }
+  
+  .guide-container p:last-of-type {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+  }

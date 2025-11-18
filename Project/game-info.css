@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navbar */
+  .header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    color: #ff5733;
+  }
+  
+  .login-btn {
+    background-color: #ff5733;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #020000;
+  }
+  
+  .login-btn:hover {
+    background-color: #ff784e;
+  }
+  
+  /* Game Details Section */
+  .game-details {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+  }
+  
+  .game-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .game-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .game-info h1 {
+    color: #ff5733;
+  }
+  
+  .game-description {
+    color: #bbb;
+  }
+  
+  /* Question Section */
+  .question-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .question {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .question label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #bbb;
+  }
+  
+  .question select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+  
+  .question select:focus {
+    outline: none;
+    border-color: #ff5733;
+  }
+  
+  /* Submit Button */
+  .btn {
+    width: 100%;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff784e;
+  }
+  
+  /* Guide Section */
+  .guide-section {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fff;
+    display: none;
+  }
+  
+  .submit-checkbox:checked ~ .guide-section {
+    display: block;
+  }
+  
+  .guide-section h2 {
+    color: #ff5733;
+  }
+  
+  .guide-section p {
+    color: #bbb;
+  }
