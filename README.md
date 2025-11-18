@@ -1,2 +1,4 @@
 # CSE370-Project---GameGuru
-GameGuru is a web-based platform that provides comprehensive game guides, allows users to request guides for new games, and includes an admin panel for managing these requests. The system supports user authentication, comment sections, guide requests, and dynamic guide pages—powered by PHP and MySQL.
+GameGuru is your all-in-one destination for game guides tailored to your playstyle. Whether you're a beginner or a seasoned player, GameGuru helps you explore, learn, and improve your gaming experience with community-driven content.
+
+This project was developed as part of CSE370 – Database Systems
